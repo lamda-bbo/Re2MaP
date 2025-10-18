@@ -3,5 +3,6 @@ install
 remap
 build
 logs
-./*.sh
+*.sh
+!build.sh
 !remap.sh
