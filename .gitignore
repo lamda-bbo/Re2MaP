@@ -1,0 +1,7 @@
+__pycache__
+install
+remap
+build
+logs
+./*.sh
+!remap.sh
