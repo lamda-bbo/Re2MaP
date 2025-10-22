@@ -82,5 +82,5 @@ bash remap.sh ariane133
 The macro placement results are stored at the following directory:
 
 ```
-Re2MaP/install/results/${date}/${design_name}/${time}
+Re2MaP/install/results/${design_name}/${date}/${time}
 ```
