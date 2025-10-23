@@ -1,4 +1,4 @@
-# Re<sup>2</sup>MaP: <u>Ma</u>cro <u>P</u>lacement by <u>Re</u>cursively Prototyping and <u>Re</u>locating
+# Re<sup>2</sup>MaP: <u>Ma</u>cro <u>P</u>lacement by <u>Re</u>cursively Prototyping and Packing Tree-based <u>Re</u>locating
 This repository contains the code for Re<sup>2</sup>MaP, a macro placement framework that generates expert-quality macro layout recursively with novel and well-designed flow of prototyping and relocating.
 
 We provide full implementation of our Re<sup>2</sup>MaP method.
