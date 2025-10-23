@@ -1,7 +1,7 @@
 # Re<sup>2</sup>MaP: <u>Ma</u>cro <u>P</u>lacement by <u>Re</u>cursively Prototyping and Relocating Macro Placement by Recursively Prototyping and Packing Tree-based <u>Re</u>locating
-This repository contains the code for Re<sup>2</sup>MaP, a macro placement framework that generates expert-quality macro layout recursively with novel and well-designed flow of prototyping and relocating. Compared to state-of-the-art macro placers, ReMaP achieves the best WNS and TNS metrics across the eight test cases from the popular OpenROAD-flow-scripts (ORFS) infrastructure, with improvements of up to 34.15% in WNS and 65.39% in TNS.
+This repository contains the code for Re<sup>2</sup>MaP, a macro placement framework that generates expert-quality macro layout recursively with novel and well-designed flow of prototyping and relocating.
 
-We provide both implementation of our ReMaP framework, and the full scripts including evaluation metadata to replicate the **main table** in our paper.
+We provide full implementation of our Re<sup>2</sup>MaP method.
 
 ## Run Re<sup>2</sup>MaP Algorithm
 
