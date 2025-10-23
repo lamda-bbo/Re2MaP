@@ -9,11 +9,11 @@ Below we provide detailed scripts to run the proposed Re<sup>2</sup>MaP algorith
 
 ### Build with Docker
 
-We highly recommend the use of Docker to enable a smooth environment configuration.
+It is highly recommended to use Docker to enable a smooth environment configuration.
 
 The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/DREAMPlace) repository. We make minor revisions to make it more clear.
 
-1. Obtain the Docker image `limbo018/dreamplace:cuda`:
+1. Obtain the Docker image `limbo018/dreamplace:cuda`.
 
 - Option 1: pull from the cloud [limbo018/dreamplace](https://hub.docker.com/r/limbo018/dreamplace).
 
@@ -27,7 +27,7 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
   docker build . --file Dockerfile.DREAMPlace --tag limbo018/dreamplace:cuda
   ```
 
-2. Build the Docker image for Re<sup>2</sup>MaP:
+2. Build the Docker image for Re<sup>2</sup>MaP.
 
    ```
    docker build . --tag lamdabbo/re2map:cuda
@@ -39,7 +39,7 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
    sudo docker run --gpus=all -it -v $(pwd):/workspace lamdabbo/re2map:cuda bash
    ```
 
-4. Build. A shell script `build.sh` is offered, just run it in container.
+4. Build. A shell script `build.sh` is offered, just run it in the container.
 
    ```
    bash build.sh
@@ -47,7 +47,7 @@ The following steps are borrowed from [DREAMPlace](https://github.com/limbo018/D
 
 ### Get Benchmarks
 
-In our experiments, we test our framework on cases from OpenROAD-flow-scripts (ORFS) [[Ajayi et al., DAC'19](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)], containing
+In our experiments, we test our framework on cases from OpenROAD-flow-scripts (ORFS) [[Ajayi et al., DAC'19](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)], including
 
 - ariane133
 - ariane136
@@ -57,7 +57,7 @@ In our experiments, we test our framework on cases from OpenROAD-flow-scripts (O
 - bp_multi
 - swerv_wrapper
 
-We run ORFS to generate the synthesized netlist and dump DEFs for our placement task. You can download the cases [here](https://drive.google.com/file/d/1AilCFLZIBDdvmsS2VWqO9ttqNIopNnTq/view?usp=sharing).
+We run ORFS to generate the synthesized netlist and dump DEFs for our placement task. You can download the cases [here](...)<font color=yellow>(TODO)</font>.
 
 Then unzip the package and put it under following the directory:
 
