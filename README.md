@@ -57,9 +57,10 @@ In our experiments, we test our framework on cases from OpenROAD-flow-scripts (O
 - bp_multi
 - swerv_wrapper
 
-We run ORFS to generate the synthesized netlist and dump DEFs for our placement task. You can download the cases [here](...)<font color=yellow>(TODO)</font>.
+**Netlists** and **clustering results** are required to perform placement. Both are available at [Google drive](https://drive.google.com/drive/folders/1r9NuVPRjm5_JwXPMNWK5AVdBMieWsi4S?usp=sharing)
+The generation of these two files are described in the paper.
 
-Then unzip the package and put it under following the directory:
+Then unzip `clustering_results.tar.gz` and `or_cases.tar.gz`, and put them under following the directory:
 
 ```
 Re2MaP/benchmarks/
