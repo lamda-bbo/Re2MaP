@@ -57,14 +57,15 @@ In our experiments, we test our framework on cases from OpenROAD-flow-scripts (O
 - bp_multi
 - swerv_wrapper
 
-**Netlists** and **clustering results** are required to perform placement. Both are available at [Google drive](https://drive.google.com/drive/folders/1r9NuVPRjm5_JwXPMNWK5AVdBMieWsi4S?usp=sharing)
-The generation of these two files are described in the paper.
+**Netlists** and **clustering results** are required to perform placement. Both are available at [Google drive](https://drive.google.com/drive/folders/1r9NuVPRjm5_JwXPMNWK5AVdBMieWsi4S?usp=sharing).
 
 Then unzip `clustering_results.tar.gz` and `or_cases.tar.gz`, and put them under following the directory:
 
 ```
 Re2MaP/benchmarks/
 ```
+
+The way of generating these two files is described in the paper.
 
 ### Run Macro Placement Task
 
